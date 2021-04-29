@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             reviewItem[reviewItem.length-1].classList.toggle("hide");        
         }else{
             const projectDetails = document.createElement('div');
-            projectDetails.innerHTML='<div style="margin-top:10px;margin-bottom:10px">Created with ASP.NET framewrok.<br>After sign up you can add and check others reviews. The connection to the database was created with ADO.NET.<br>(The GitHub repository doesn\'t include the database.)</div><img class="bigGrowr1" src="reviewProject2.png"><img class="bigGrowr2" style="padding-top:10px;" src="reviewProject.png">'
+            projectDetails.innerHTML='<div style="margin-top:10px;margin-bottom:10px">Created with ASP.NET framework.<br>After signing up you can create reviews and check out what others have written. The connection to the database was created with ADO.NET.<br>(The GitHub repository doesn\'t include the database.)</div><img class="bigGrowr1" src="reviewProject2.png"><img class="bigGrowr2" style="padding-top:10px;" src="reviewProject.png">'
             document.querySelector(".reviewLi").appendChild(projectDetails);
             if(windowwidth>=1240){
             review1Pic = document.querySelector(".bigGrowr1");
